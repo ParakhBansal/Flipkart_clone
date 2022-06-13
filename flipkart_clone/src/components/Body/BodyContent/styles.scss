@@ -1,0 +1,33 @@
+.bodycontent_parent{
+    height: fit-content;
+    padding: 12px 16px 0;
+    margin-left: 10px;
+    width: 100%;
+    background-color: white;
+}
+.bodycontent_card_parent{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pagin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border-top: 1px solid #f0f0f0;
+}
+.bodycontent_head{
+    display: flex;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.bodycontent_head p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.bodycontent_head span{
+    color: #878787;
+    font-size: 12px;
+    align-self: flex-end;
+}

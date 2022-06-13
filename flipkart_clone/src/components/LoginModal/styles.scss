@@ -1,0 +1,89 @@
+.loginFormParent{
+	position: absolute;
+	width: 40%;
+	height: 55%;
+	top: 15%;
+    display: flex;
+    box-sizing: border-box;
+	left: 30%;
+    outline: none;
+}
+.login_form{
+    background-color: white;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    padding: 20px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.login_sideimg{
+    width: 40%;
+    height: 100%;
+}
+.login_sideimg img{
+    height: 100%;
+    width: 100%;
+}
+.login_close{
+    position: absolute;
+    right: -30px;
+    top: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 32px;
+    line-height: 1;
+}
+.login_privacypolicy{
+    color: #878787;
+    font-size: 12px;
+    width: 80%;
+    font-weight: 400;
+    line-height: 1.4;
+    word-spacing: 2px;
+    letter-spacing: 0.6;
+}
+.login_privacypolicy a{
+    color: #2874f0;
+    text-decoration: none;
+}
+.login_button{
+    background: #fb641b;
+    box-shadow: 0 1px 2px 0 #00000033;
+    border: none;
+    color: #fff;
+    width: 80%;
+    height: 48px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+.login_or{
+    color: #878787;
+}
+.otp_button{
+    height: 48px;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px 0 #00000033;
+    border: none;
+    line-height: 180%;
+    text-align: center;
+    color: #2874f0;
+    background-color: #fff;
+    width: 80%;
+    cursor: pointer;
+}
+.login_singup{
+    color: #2874f0;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+}

@@ -1,0 +1,96 @@
+.bodycontent_card{
+    width: 25%;
+    padding: 16px;
+    height: 450px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: box-shadow .2s ease-in-out;
+    position: relative;
+    filter: none!important;
+}
+.bodycontent_card:hover{
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+.Cardimage_parent{
+    height: 280px;
+    width: 230px;
+    padding: 12px;
+}
+.Cardimage{
+    max-height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cardimage img{
+    max-width: 100%;
+    max-height: 278px;
+}
+.card_name{
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #212121;
+    line-height: 1.4;
+}
+.card_rating_parent{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.heartsvg{
+    top: 20px;
+    right: 60px;
+    position: absolute;
+}
+.card_rating{
+    line-height: normal;
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    padding: 2px 4px 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    vertical-align: middle;
+    background-color: #388e3c;
+}
+.card_reviews{
+
+    color: #878787;
+}
+.assured_img{
+    width: 77px;
+    height: 21px;
+    margin-left: 10px;
+}
+.card_sellingprice{
+    font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+    margin-right: 10px;
+}
+.card_actualprice{
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #878787;
+
+    margin-right: 10px;
+}
+.card_discount{
+    color: #388e3c;
+    font-size: 13px;
+    letter-spacing: -.2px;
+    font-weight: 500;
+}
+.card_offer{
+    color: #26A541;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+    font-weight: 900;
+    margin:8px 0;
+}
